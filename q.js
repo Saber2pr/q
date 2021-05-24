@@ -13,7 +13,7 @@ async function main() {
   const file = process.argv[2]
   const weeks = Number(process.argv[3] || 12)
   const str = (await ReadFile(file)).toString()
-  const blocks = str.split('###').filter(s => s).map(s => s.split('\n'))
+  const blocks = str.split('###').filter(s => s).map(s => s.split(/\n|\r\n/))
 
   const tokens = blocks.map(block => {
     const nameStr = block[0]

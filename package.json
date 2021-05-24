@@ -1,6 +1,6 @@
 {
   "name": "@saber2pr/q",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "main": "q.js",
   "bin": {
     "sa-q": "q.js"
