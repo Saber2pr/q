@@ -1,0 +1,12 @@
+{
+  "name": "@saber2pr/q",
+  "version": "1.0.0",
+  "main": "q.js",
+  "bin": {
+    "sa-q": "q.js"
+  },
+  "files": [
+    "q.js"
+  ],
+  "author": "saber2pr"
+}
