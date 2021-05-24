@@ -1,3 +1,5 @@
+#!/usr/bin/env node
+
 const { promisify } = require('util')
 const { readFile, writeFile } = require('fs')
 const { parse, join } = require('path')

@@ -1,6 +1,6 @@
 {
   "name": "@saber2pr/q",
-  "version": "1.0.0",
+  "version": "1.0.3",
   "main": "q.js",
   "bin": {
     "sa-q": "q.js"
@@ -8,5 +8,8 @@
   "files": [
     "q.js"
   ],
+  "scripts": {
+    "test": "sa-q ReadMd.md"
+  },
   "author": "saber2pr"
 }
