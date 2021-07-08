@@ -72,7 +72,7 @@ async function main() {
     const list = ast[key]
     return [
       `### ${key}`,
-      ...list.map((item, i) => `${i + 1}. [${Number(item.score).toFixed(2)}*${item.ratio * 100}%] ${item.name} \`${'*'.repeat(item.hard)}\``)
+      ...list.map((item, i) => `${i + 1}. [${Number(item.score).toFixed(2)}*${item.ratio * 100}%] ${item.name} ${item.hard ? `\`${'*'.repeat(item.hard)}\`` : ""}`)
     ].join('\n')
   }).join('\n\n')
 
